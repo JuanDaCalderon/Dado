@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val rollButton: Button = findViewById<Button>(R.id.roll_button)
         val resultText: TextView = findViewById<TextView>(R.id.result_text)
         rollButton.setOnClickListener {
-            val randomInt = (1..6).random()
+            val randomInt = (1..7).random()
             resultText.text = randomInt.toString()
         }
     }
